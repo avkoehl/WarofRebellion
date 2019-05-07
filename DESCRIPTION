@@ -1,13 +1,13 @@
 Package: WarofRebellion
-Title: What the Package Does (One Line, Title Case)
+Title: Data only package that provides access to all texts from the War of Rebellion Corpus hosted by Ohio State University.
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Arthur",
+           family = "Koehl",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "avkoehl@ucdavis.edu")
+Description: This package contains the entire corpus hosted on https://ehistory.osu.edu/books/official-records. The data is stored as a list of the serials. Each serial contains the raw text form of the documents. There is also an info dataframe with the metadata information for the corpus. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
